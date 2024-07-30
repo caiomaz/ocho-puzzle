@@ -13,7 +13,7 @@ Este projeto implementa uma solução para o problema do 8-puzzle usando dois al
 
 Certifique-se de ter o Python instalado na sua máquina. Este código foi testado com Python 3.8+.
 
-## Como Usar
+## Como usar
 
 1. Clone este repositório para sua máquina local ou baixe o arquivo `8_puzzle_solver.py`.
 
@@ -29,3 +29,27 @@ Certifique-se de ter o Python instalado na sua máquina. Este código foi testad
     - Digite 2 para Busca em Profundidade (DFS)
 
 5. O programa exibirá a solução encontrada, o tempo de execução e o caminho percorrido.
+
+## Exemplo de uso
+```
+Bem-vindo ao 8-puzzle solver!
+Insira a matriz inicial (use 0 para o espaço em branco):
+Linha 1 (inicial): 1 2 3
+Linha 2 (inicial): 4 0 5
+Linha 3 (inicial): 6 7 8
+Insira a matriz objetivo (use 0 para o espaço em branco):
+Linha 1 (objetivo): 1 2 3
+Linha 2 (objetivo): 4 5 6
+Linha 3 (objetivo): 7 8 0
+Escolha o algoritmo de busca:
+    Busca em Largura (BFS)
+    Busca em Profundidade (DFS)
+    Digite o número da sua escolha: 1
+    Solução encontrada:
+    [1, 2, 3]
+    [4, 5, 6]
+    [7, 8, 0]
+    Tempo de execução: 0.0023 segundos
+    Caminho percorrido:
+    ...
+```
